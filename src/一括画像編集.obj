@@ -26,7 +26,7 @@ local AVAILABLE_FORMAT = {{"png"}, {"jpg", "jpeg"}, {"bmp"}}
 _G["data"] = {data1, data2, data3, data4}
 
 --textmoduleのバージョン確認
-if textmodule.getinfo("version", 2)<24 then
+if textmodule.getinfo("version", 2)<141 then
 	return
 end
 
